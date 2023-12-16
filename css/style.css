@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+p {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    color: #D3F6DB;
+    text-shadow:
+        0px 0px #92D5E6,
+        0px 0px #772D8B;
+    transition-duration: 400ms;
+}
+
+p:hover {
+    text-shadow:
+        10px -10px #92D5E6,
+        20px -20px #772D8B;
+}
